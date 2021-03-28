@@ -70,6 +70,11 @@ wpa_passphrase=PASSWORD
 ```
 
 ```shell
+sudo nano /etc/default/hostapd
+```
+
+
+```shell
 DAEMON_CONF="/etc/hostapd/hostapd.conf"
 ```
 
@@ -78,7 +83,13 @@ DAEMON_CONF="/etc/hostapd/hostapd.conf"
 sudo reboot
 ```
 
-
 [wireless access point](https://thepi.io/how-to-use-your-raspberry-pi-as-a-wireless-access-point/)
 
 [bridged wireless access point](https://www.raspberrypi.org/documentation/configuration/wireless/access-point-bridged.md)
+
+[routed wireless access point]( https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md)
+
+
+
+
+
